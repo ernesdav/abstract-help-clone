@@ -1,0 +1,93 @@
+/*
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografía
+4. Temas visuales
+5. Otros
+*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+}
+.logo-container a {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 8px;
+}
+.logo-container h2{
+    font-size: 2.4rem;
+    line-height: 2.3rem;
+    font-weight: 300;
+    color: #fff;
+
+}
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+.icons-container .search--icon{
+    background-color: #fff;
+}
+.icons-container .menu--icon{
+    background-color: #fff;
+    margin-left: 15px;
+}
+main {
+    width: 100%;
+}
+.title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: #dadbf1;
+}
+.title-container h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 500;
+    letter-spacing: -0.4rem;
+    margin-bottom: 50px;
+}
+/* .title-container form {
+    min-width: 290px;
+    max-width: 720px;
+}  */
+.title-container form input {
+    min-width: 290px;
+    max-width: 720px;
+    height: 66px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+}
