@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user/scalable=no, initial/scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Abstract</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,21 +13,24 @@
 <body>
     <header>
         <div class="logo-container">
-            <a href="#">Abstract</a>
-            <h2>| Help Center</h2>
+            <a class="company--name" href="#">Abstract</a>
+            <a class="help--title" href="#">| Help Center</a>
         </div>
         <div class="icons-container">
             <img class="search--icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAvxJREFUSEuNl3tdG0EQx7+joEEBVEGpglIHQUGCg6CgoACqgKCgOKBVAA4oCrgq2H5mb/Z29kW4PyC5253X77EXwV0ChPjHbtrnfKu84Zf6OP3PZWD91rkEIZRFNBVCU1BZL37Fst3VviyPyeK3Ti/CGYEvwAphIsgzhD+HO00rrBmLL368nQ5OgB/Atj8XpgAPwDXwt13TYJWb7OMUq9sFuOmNqOBBHq+u/1kmH7NggDF7gU3iGHCP8EDgNzAhrAicCawDbFxxe4JcZMje50Hd1I7c6SvIGsLzvKg7ulPmcR9boEuB2yFX0oQqXBXTF3v2CmjQqaOwGs4VoMUda3FC+BwM80aijvk+yB5hYzr6asHc8xKzqmgt8skS3wdPyK5ISvUkWO8Ftg7jUmHWRkd+e2bMJ+CoFmatoNSRkuXRGHtuuDUKyZs93otG18Av2/QdIhlLDi1F5/ueVEcC01zEux5aq2dFkDdzvUsCtyOD8XK6MrNIE3I0KIbeiVWAmAh9TeDK86CWWQq0E7ixFIqP4tS3z7G0ViBvdspEuMYGlWOfAY+W7ByCarMHUIlZ2X/E2JJlVTTZlRPlpV1+UqeKrB47XrVtWbgH2VjHOfZQTjmMySGu7Oi4hL2i3WmIOo7Kuw6gnBkMTZhPp/z4BOHFbuhpo8kL5xqwdCXwFECd7x/z/6l7vBo/3KiXErysNLmSxLy6S3R1LNWuFq1dtObT2TYnbjFIDpQaVCvV00kP/nQ6fQPWCFudUBXiAtAY7dUxkBqPXRBu1ED8a1CHoNqljldVsHElxOQjftastn2LHZ6oCcTOZrbPnZWsUqNQh9JJaPd3ToMXEJbOaw/szqN52ZvfuRTPdAQq/gv2Lqi+Jrnk2NjL3tuOB0Q4ZJqV1+jJ1kmeVrUG0pnlQECHb29B7syfK7L1Elele5GPcy2ciKZQjV1v7Os4tYEc7mOskY/tdTV2XeFjUTJmhf85b2hU4LIdTDzaPDCf3u+QZmnxS+Jwlx87rt5dZV38B6i6KTq+FN1eAAAAAElFTkSuQmCC"/>
             <img class="menu--icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZZJREFUSEudV1mWwyAMMzebo3Vu1jkZ85LQImMpNslXXwretECawdPMrFdenAvDatw5fus1xz/f51GoZJP6ezsxaWt5hamaNet0ODGx31ccqVllWut0kyZGSEWA3YyAPiXFOaJ8rqPVMKZ0Z7udrGo2DZsvcIlh+auZddYxn+wdd88ov2spjlwgrD4VPZi5pdKwOOQRiTfgrRlBObGwFQK6cjFcSpBQHV+JQ56adpJavqFJAo/RTHfvRNK+Nzr+Wc8LJpCUy3PT3+ptyqtBST48NzANAaDlbFUYSHNyWg5Lf5olsGNiJwBBhGPU+4/Aspu9VyJBxxuIJdqtcB8wVuUS56p4uO4+yolr9+HEC9gz0UpW35ZxT2639Rr1YBicwc4LlBPBoSJlD6HBDQ/4+PNSnc0i9KlFCjrjeQdMIUzIheNF0mmunrbg5BRuhBVdkML5Nl8hYDwiPEqWtXd9AMzGPhiHcSmhVgRcu+q6jpE4FxDxm2Yy/9FonM8THWvbCayu5GcEVPu4dv1qL495D8f3eGnEU+4fyF/KI1dhIooAAAAASUVORK5CYII="/>
         </div>
-        <div></div>
+        <div class="buttons-container"></div>
     </header>
     <main>
         <section class="title-container">
             <div>
                 <h1>How can we help?</h1>
                 <form action="">
-                    <input type="search" id="search" placeholder="Search">
+                    <label for="search">
+                        <input type="search" id="search" placeholder="Search">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKZJREFUSEvtlMENwjAQBMcd0AmUkHRAR6EEOqGEUAJ0QgdE90NRZN8uOC/8tmbkvfUVOp/Smc9f0EzYiegCXIFXkw7yDAI+AQ9gzEjUFxyAO3DMSlRBpCJJHIEkcQVpSU3wzrTk487m4H8peALDulnfRjQDJ2ATHq9zBdGkJtwVpOGOQII7gjNwq2W+bp4zg5DEuuiy7MSv4bcoLXIiSsOdIUvwXQQLDaAoGREMQ18AAAAASUVORK5CYII="/>
+                    </label>
                 </form>
             </div>
         </section>
