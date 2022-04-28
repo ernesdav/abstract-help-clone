@@ -67,6 +67,25 @@ main {
     width: 100%;
     min-width: 320px;
 }
+#help-botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 108px;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #4C5FD5;
+}
+#help-botton a {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
 .title-container {
     width: 100%;
     display: flex;
@@ -112,4 +131,149 @@ main {
 .title-container form label img {
     width: 36px;
     height: 36px;
+}
+.main-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+.info-container{
+    display: grid;
+    grid-template-columns: minmax(290px, 586px);
+    width: 90%;
+    height: auto;
+    min-width: 300px;
+    place-content: center;
+    background-color: #fff;
+}
+.info-container .info-article .info-article--title {
+    display: inline-block;
+    min-width: 165px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #191a1b;
+}
+.info-container .info-article .info-article--p {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 106px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #191a1b;
+}
+.info-container .info-article .info-article--learn {
+    display: inline-block;
+    margin-left: 106px;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: #4C5FD5;
+}
+.info-container .info-article .article-logo--using {
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    max-width: 76px;
+    max-height: 76px;
+}
+.info-container .info-article .article-logo--account {
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    width: 76px;
+    height: 76px;
+}
+.info-container .info-article .article-logo--organizations {
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    max-width: 76px;
+    max-height: 76px;
+}
+.info-container .info-article .article-logo--billing {
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    max-width: 76px;
+    max-height: 76px;
+}
+.info-container .info-article .article-logo--authenticate {
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    max-width: 76px;
+    max-height: 76px;
+}
+.info-container .info-article .article-logo--support {
+    display: inline-block;
+    position: relative;
+    top: 55px;
+    max-width: 76px;
+    max-height: 76px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    min-height: 460px;
+    background-color: #000000;
+}
+.footer-links-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.links-grid {
+    display: grid;
+    place-content: center;
+    width: 90%;
+    grid-template-columns: repeat(2, minmax(100px, 300px));
+}
+.links-grid .links-card--title {
+    font-size: 2.4rem;
+    line-height: 2.8px;
+    font-weight: bold;
+    margin: 48px 0 16px 0;
+    color: #fff;
+}
+.links-grid .links-card--list a{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.links-grid h4 {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+.links-grid .links-card--infoMail {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-rights-container {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.footer-rights-container .rights-container {
+    padding-left: 20px;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    color: #fff;
 }
